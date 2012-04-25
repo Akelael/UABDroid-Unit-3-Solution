@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- General -->
+    <string name="app_name">Unit3Example</string>
+	<!-- ******* -->
+
+	<!-- MainActivity -->
+    <string name="button_form_activity">Llista d\'aplicacions</string>
+    <string name="button_add_application">Afegir</string>
+    <string name="submenu_title">Submenú</string>
+    <string name="submenu_item1">Item 1</string>
+    <string name="submenu_item2">Item 2</string>
+    <string name="submenu_item3">Item 3</string>
+    <string name="submenu_item4">Item 4</string>
+    <!-- ************ -->
+    
+    <!-- Form Layout -->
+    <string name="textview_form_name">Nom: </string>
+    <string name="textview_form_developer">Desenvolupador: </string>
+    <string name="textview_form_date">Data: </string>
+    <string name="textview_form_url">URL: </string>
+    <string name="button_form_accept">Acceptar</string>
+    <string name="button_form_cancel">Cancelar</string>
+    <string name="button_form_clean">Netejar formulari</string>
+	<!-- ************* -->
+	
+
+</resources>

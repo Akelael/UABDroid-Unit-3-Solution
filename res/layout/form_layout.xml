@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textview_form_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textview_form_name"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/edittext_form_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textview_form_name" 
+        android:inputType="text">
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textview_form_developer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/edittext_form_name"
+        android:text="@string/textview_form_developer"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/edittext_form_developer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edittext_form_name"
+        android:layout_toRightOf="@+id/textview_form_developer" 
+        android:inputType="text"/>
+
+    <TextView
+        android:id="@+id/textview_form_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/edittext_form_developer"
+        android:text="@string/textview_form_date"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <DatePicker
+        android:id="@+id/datepicker_form_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textview_form_date"
+        android:layout_toRightOf="@+id/textview_form_date" />
+
+    <TextView
+        android:id="@+id/textview_form_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/datepicker_form_date"
+        android:text="@string/textview_form_url"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/edittext_form_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/datepicker_form_date"
+        android:layout_below="@+id/datepicker_form_date"
+        android:layout_toRightOf="@+id/textview_form_url" 
+        android:inputType="text"/>
+    
+	<Button android:id="@+id/button_form_clean"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edittext_form_url"
+        android:layout_marginTop="14dp"
+        android:layout_toRightOf="@+id/textview_form_date"
+        android:text="@string/button_form_clean" />
+
+    <Button
+        android:id="@+id/button_form_accept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/datepicker_form_date"
+        android:layout_below="@+id/edittext_form_url"
+        android:layout_marginTop="75dp"
+        android:text="@string/button_form_accept" />
+
+    <Button
+        android:id="@+id/button_form_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_form_accept"
+        android:layout_alignBottom="@+id/button_form_accept"
+        android:layout_alignRight="@+id/edittext_form_url"
+        android:layout_marginRight="31dp"
+        android:text="@string/button_form_cancel" />
+
+
+
+</RelativeLayout>

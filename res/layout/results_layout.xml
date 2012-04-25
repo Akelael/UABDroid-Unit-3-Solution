@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textview_form_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textview_form_name"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textview_form_developer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textview_form_name"
+        android:layout_marginTop="33dp"
+        android:text="@string/textview_form_developer"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textview_form_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textview_form_developer"
+        android:layout_marginTop="31dp"
+        android:text="@string/textview_form_date"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textview_form_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textview_form_date"
+        android:layout_below="@+id/textview_form_date"
+        android:layout_marginTop="52dp"
+        android:text="@string/textview_form_url"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textview_result_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/textview_form_name"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textview_result_developer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textview_form_date"
+        android:layout_marginLeft="18dp"
+        android:layout_toRightOf="@+id/textview_form_developer"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textview_result_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textview_form_date"
+        android:layout_alignBottom="@+id/textview_form_date"
+        android:layout_toRightOf="@+id/textview_form_date"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/textview_result_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textview_form_url"
+        android:layout_alignBottom="@+id/textview_form_url"
+        android:layout_toRightOf="@+id/textview_form_url"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:layout_marginLeft="20dp"/>
+
+</RelativeLayout>
